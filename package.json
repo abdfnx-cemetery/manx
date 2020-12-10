@@ -1,0 +1,53 @@
+{
+	"name": "@abdfnx/manx",
+	"version": "1.0.0",
+	"description": "Cli app can move files/folders to the trash without any dangerous",
+	"license": "MIT",
+	"repository": "abdfnx/manx",
+	"author": "abdfnx",
+	"main": "cli.js",
+	"bin": {
+		"manx": "cli.js"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"homepage": "",
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"trash",
+		"recycle",
+		"bin",
+		"rm",
+		"rmrf",
+		"rimraf",
+		"remove",
+		"delete",
+		"del",
+		"file",
+		"files",
+		"directory",
+		"directories",
+		"folder",
+		"folders",
+		"xdg"
+	],
+	"dependencies": {
+		"@abdfnx/hac_k": "^1.0.2",
+		"trash": "^7.0.0"
+	},
+	"devDependencies": {
+		"ava": "^2.4.0",
+		"execa": "^4.1.0",
+		"path-exists": "^4.0.0",
+		"temp-write": "^4.0.0",
+		"xo": "^0.35.0"
+	}
+}
