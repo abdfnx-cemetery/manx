@@ -7,6 +7,7 @@ const manx = require("trash");
 const ignoredFlags = ["r", "f", "i", "d", "P", "R", "v", "W"];
 
 const ignoredFlagsConfig = {};
+
 for (const flag of ignoredFlags) {
 	ignoredFlagsConfig[flag] = {
 		type: "boolean",

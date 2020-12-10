@@ -1,9 +1,9 @@
 {
 	"name": "@abdfnx/manx",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Cli app can move files/folders to the trash without any dangerous",
 	"license": "MIT",
-	"repository": "abdfnx/manx",
+	"repository": "https://github.com/abdfnx/manx",
 	"author": "abdfnx",
 	"main": "cli.js",
 	"bin": {
@@ -12,7 +12,7 @@
 	"engines": {
 		"node": ">=10"
 	},
-	"homepage": "",
+	"homepage": "https://abdfnx.github.io/manx/",
 	"scripts": {
 		"test": "xo && ava"
 	},

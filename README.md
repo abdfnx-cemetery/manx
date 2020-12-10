@@ -8,13 +8,13 @@ The problem of [`rm`](http://en.wikipedia.org/wiki/Rm_(Unix)) which is [dangerou
 
 ## Install
 
-```s
-$ npm i -g manx
+```sh
+$ npm i -g @abdfnx/manx
 ```
 
 ## Usage
 
-```s
+```sh
 $ manx --help
 
   Usage
